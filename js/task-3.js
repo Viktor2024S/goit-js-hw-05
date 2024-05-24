@@ -1,6 +1,6 @@
 const sortByDescendingFriendCount = (users) =>
   users
-    .slice()
+    // .slice()
     .toSorted(
       (firstUser, secondUser) =>
         secondUser.friends.length - firstUser.friends.length
